@@ -1,4 +1,4 @@
-import BaseRegression, {maybeToPrecision} from 'ml-regression-base';
+import BaseRegression, {checkArrayLength, maybeToPrecision} from 'ml-regression-base';
 import SimpleLinearRegression from 'ml-regression-simple-linear';
 
 export default class ExponentialRegression extends BaseRegression {
@@ -8,12 +8,8 @@ export default class ExponentialRegression extends BaseRegression {
             this.A = y.A;
             this.B = y.B;
         } else {
-            const n = x.length;
-            if (n !== y.length) {
-                throw new RangeError('input and output array have a different length');
-            }
-
-            regress(this, x, y, n);
+            checkArrayLength(x, y);
+            regress(this, x, y);
         }
     }
 
@@ -50,7 +46,8 @@ export default class ExponentialRegression extends BaseRegression {
     }
 }
 
-function regress(er, x, y, n) {
+function regress(er, x, y) {
+    const n = x.length;
     const yl = new Array(n);
     for (let i = 0; i < n; i++) {
         yl[i] = Math.log(y[i]);
