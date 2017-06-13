@@ -23,7 +23,7 @@ describe('Exponential regression', () => {
             B: 1
         });
 
-        expect(regression.predict(1)).toEqual(0.36787944117144233);
+        expect(regression.predict(1)).toBeCloseTo(0.36787944117144233, Number.EPSILON);
 
         const model = regression.toJSON();
         expect(model).toEqual({
