@@ -1,14 +1,14 @@
 # regression-exponential
 
-  [![NPM version][npm-image]][npm-url]
-  [![build status][travis-image]][travis-url]
-  [![npm download][download-image]][download-url]
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![npm download][download-image]][download-url]
 
 Exponential Regression.
 
 ## Installation
 
-`$ npm install --save ml-regression-exponential`
+`$ npm i ml-regression-exponential`
 
 ## Usage
 
@@ -22,15 +22,15 @@ const y = [1.5, 2.5, 3.5, 5.0, 7.5];
 
 const regression = new ExponentialRegression(x, y);
 
-regression.A // 0.391202
-regression.B // 1.579909
+regression.A; // 0.391202
+regression.B; // 1.579909
 regression.predict(2); // 3.454825
 regression.toString(3); // f(x) = 1.58 * exp(0.391 * x)
 ```
 
 ## License
 
-  [MIT](./LICENSE)
+[MIT](./LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/ml-regression-exponential.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/ml-regression-exponential
