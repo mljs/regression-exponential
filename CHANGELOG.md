@@ -1,3 +1,5 @@
+# Changelog
+
 ## [2.1.0](https://github.com/mljs/regression-exponential/compare/v2.0.0...v2.1.0) (2021-05-10)
 
 
