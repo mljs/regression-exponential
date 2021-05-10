@@ -1,6 +1,6 @@
 import BaseRegression, {
   checkArrayLength,
-  maybeToPrecision
+  maybeToPrecision,
 } from 'ml-regression-base';
 import SimpleLinearRegression from 'ml-regression-simple-linear';
 
@@ -24,37 +24,28 @@ export default class ExponentialRegression extends BaseRegression {
     return {
       name: 'exponentialRegression',
       A: this.A,
-      B: this.B
+      B: this.B,
     };
   }
 
   toString(precision) {
-    return (
-      `f(x) = ${
-        maybeToPrecision(this.B, precision)
-      } * e^(${
-        maybeToPrecision(this.A, precision)
-      } * x)`
-    );
+    return `f(x) = ${maybeToPrecision(
+      this.B,
+      precision,
+    )} * e^(${maybeToPrecision(this.A, precision)} * x)`;
   }
 
   toLaTeX(precision) {
     if (this.A >= 0) {
-      return (
-        `f(x) = ${
-          maybeToPrecision(this.B, precision)
-        }e^{${
-          maybeToPrecision(this.A, precision)
-        }x}`
-      );
+      return `f(x) = ${maybeToPrecision(
+        this.B,
+        precision,
+      )}e^{${maybeToPrecision(this.A, precision)}x}`;
     } else {
-      return (
-        `f(x) = \\frac{${
-          maybeToPrecision(this.B, precision)
-        }}{e^{${
-          maybeToPrecision(-this.A, precision)
-        }x}}`
-      );
+      return `f(x) = \\frac{${maybeToPrecision(
+        this.B,
+        precision,
+      )}}{e^{${maybeToPrecision(-this.A, precision)}x}}`;
     }
   }
 

@@ -1,7 +1,7 @@
 # regression-exponential
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![build status][ci-image]][ci-url]
 [![npm download][download-image]][download-url]
 
 Exponential Regression.
@@ -32,9 +32,9 @@ regression.toString(3); // f(x) = 1.58 * exp(0.391 * x)
 
 [MIT](./LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/ml-regression-exponential.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/ml-regression-exponential.svg
 [npm-url]: https://npmjs.org/package/ml-regression-exponential
-[travis-image]: https://img.shields.io/travis/mljs/regression-exponential/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/mljs/regression-exponential
-[download-image]: https://img.shields.io/npm/dm/ml-regression-exponential.svg?style=flat-square
+[ci-image]: https://github.com/mljs/regression-exponential/workflows/Node.js%20CI/badge.svg?branch=master
+[ci-url]: https://github.com/mljs/regression-exponential/actions?query=workflow%3A%22Node.js+CI%22
+[download-image]: https://img.shields.io/npm/dm/ml-regression-exponential.svg
 [download-url]: https://npmjs.org/package/ml-regression-exponential

@@ -20,19 +20,19 @@ describe('Exponential regression', () => {
     const regression = ExponentialRegression.load({
       name: 'exponentialRegression',
       A: -1,
-      B: 1
+      B: 1,
     });
 
     expect(regression.predict(1)).toBeCloseTo(
       0.36787944117144233,
-      Number.EPSILON
+      Number.EPSILON,
     );
 
     const model = regression.toJSON();
     expect(model).toStrictEqual({
       name: 'exponentialRegression',
       A: -1,
-      B: 1
+      B: 1,
     });
   });
 });
