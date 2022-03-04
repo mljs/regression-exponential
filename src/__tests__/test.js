@@ -12,11 +12,11 @@ describe('Exponential regression', () => {
     expect(score.r2).toBeGreaterThan(0.8);
     expect(score.chi2).toBeLessThan(0.1);
     expect(score.rmsd).toBeCloseTo(0.1);
-    expect(result.toString(4)).toStrictEqual('f(x) = 1.580 * e^(0.3912 * x)');
-    expect(result.toLaTeX(4)).toStrictEqual('f(x) = 1.580e^{0.3912x}');
+    expect(result.toString(4)).toBe('f(x) = 1.580 * e^(0.3912 * x)');
+    expect(result.toLaTeX(4)).toBe('f(x) = 1.580e^{0.3912x}');
   });
 
-  it('toJSON / load model', function () {
+  it('toJSON / load model', () => {
     const regression = ExponentialRegression.load({
       name: 'exponentialRegression',
       A: -1,
