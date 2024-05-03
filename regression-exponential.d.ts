@@ -3,6 +3,8 @@ import BaseRegression from 'ml-regression-base';
 declare namespace ExponentialRegression {
   export interface ExponentialRegressionModel {
     name: 'exponentialRegression';
+    A: number;
+    B: number;
   }
 }
 
