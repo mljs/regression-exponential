@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/mljs/regression-exponential/compare/v2.1.0...v2.1.1) (2024-05-03)
+
+
+### Bug Fixes
+
+* improve type interface ([d56b4d2](https://github.com/mljs/regression-exponential/commit/d56b4d284f93d7ffe5011e6ad79a23cf280f33d9))
+
 ## [2.1.0](https://github.com/mljs/regression-exponential/compare/v2.0.0...v2.1.0) (2021-05-10)
 
 
@@ -33,6 +40,3 @@
 ### Features
 
 * implement exponential regression ([0718866](https://github.com/mljs/regression-exponential/commit/0718866))
-
-
-
