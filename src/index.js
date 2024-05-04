@@ -2,7 +2,7 @@ import BaseRegression, {
   checkArrayLength,
   maybeToPrecision,
 } from 'ml-regression-base';
-import SimpleLinearRegression from 'ml-regression-simple-linear';
+import { SimpleLinearRegression } from 'ml-regression-simple-linear';
 
 export default class ExponentialRegression extends BaseRegression {
   constructor(x, y) {
