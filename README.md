@@ -34,7 +34,7 @@ regression.toString(3); // f(x) = 1.58 * exp(0.391 * x)
 
 [npm-image]: https://img.shields.io/npm/v/ml-regression-exponential.svg
 [npm-url]: https://npmjs.org/package/ml-regression-exponential
-[ci-image]: https://github.com/mljs/regression-exponential/workflows/Node.js%20CI/badge.svg?branch=master
+[ci-image]: https://github.com/mljs/regression-exponential/workflows/Node.js%20CI/badge.svg?branch=main
 [ci-url]: https://github.com/mljs/regression-exponential/actions?query=workflow%3A%22Node.js+CI%22
 [download-image]: https://img.shields.io/npm/dm/ml-regression-exponential.svg
 [download-url]: https://npmjs.org/package/ml-regression-exponential
