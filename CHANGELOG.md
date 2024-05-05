@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/mljs/regression-exponential/compare/v2.1.1...v2.1.2) (2024-05-05)
+
+
+### Bug Fixes
+
+* update dependencies ([#15](https://github.com/mljs/regression-exponential/issues/15)) ([0db2c54](https://github.com/mljs/regression-exponential/commit/0db2c54a197ccefd7f29374cc976221ea94ddb94))
+
 ## [2.1.1](https://github.com/mljs/regression-exponential/compare/v2.1.0...v2.1.1) (2024-05-03)
 
 
