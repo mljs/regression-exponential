@@ -1,6 +1,6 @@
 {
   "name": "ml-regression-exponential",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Exponential Regression",
   "main": "lib/index.js",
   "module": "src/index.js",
