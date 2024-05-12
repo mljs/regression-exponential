@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/mljs/regression-exponential/compare/v2.1.2...v2.1.3) (2024-05-12)
+
+
+### Bug Fixes
+
+* add back CJS compat code from Rollup ([#20](https://github.com/mljs/regression-exponential/issues/20)) ([dc55031](https://github.com/mljs/regression-exponential/commit/dc55031b103c39f7b49882775c4cee05f243c5c6))
+
 ## [2.1.2](https://github.com/mljs/regression-exponential/compare/v2.1.1...v2.1.2) (2024-05-05)
 
 
