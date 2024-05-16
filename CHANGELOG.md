@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/mljs/regression-exponential/compare/v3.0.0...v3.0.1) (2024-05-16)
+
+
+### Bug Fixes
+
+* TS definition was wrong (still the default) ([e934626](https://github.com/mljs/regression-exponential/commit/e9346263428243a09edfc42d8a00d6df24f8ef94))
+
 ## [3.0.0](https://github.com/mljs/regression-exponential/compare/v2.1.3...v3.0.0) (2024-05-16)
 
 
