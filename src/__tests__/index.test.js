@@ -1,4 +1,4 @@
-import ExponentialRegression from '..';
+import { ExponentialRegression } from '..';
 
 describe('Exponential regression', () => {
   it('basic test', () => {

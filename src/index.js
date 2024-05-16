@@ -1,10 +1,11 @@
-import BaseRegression, {
+import {
+  BaseRegression,
   checkArrayLength,
   maybeToPrecision,
 } from 'ml-regression-base';
 import { SimpleLinearRegression } from 'ml-regression-simple-linear';
 
-export default class ExponentialRegression extends BaseRegression {
+export class ExponentialRegression extends BaseRegression {
   constructor(x, y) {
     super();
     if (x === true) {
