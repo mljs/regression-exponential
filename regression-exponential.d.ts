@@ -1,19 +1,14 @@
-import BaseRegression from 'ml-regression-base';
+import { BaseRegression } from 'ml-regression-base';
 
-declare namespace ExponentialRegression {
-  export interface ExponentialRegressionModel {
-    name: 'exponentialRegression';
-    A: number;
-    B: number;
-  }
+export interface ExponentialRegressionModel {
+  name: 'exponentialRegression';
+  A: number;
+  B: number;
 }
-
-declare class ExponentialRegression extends BaseRegression {
+export declare class ExponentialRegression extends BaseRegression {
   constructor(x: number[], y: number[]);
 
-  static load(model: ExponentialRegression.ExponentialRegressionModel): ExponentialRegression;
+  static load(model: ExponentialRegressionModel): ExponentialRegression;
 
-  toJSON(): ExponentialRegression.ExponentialRegressionModel;
+  toJSON(): ExponentialRegressionModel;
 }
-
-export = ExponentialRegression;
