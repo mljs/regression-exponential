@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/mljs/regression-exponential/compare/v2.1.3...v3.0.0) (2024-05-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies and remove default export
+
+### Miscellaneous Chores
+
+* update dependencies and remove default export ([6cd8877](https://github.com/mljs/regression-exponential/commit/6cd887729cde82fdd9152258576e5ebde763b254))
+
 ## [2.1.3](https://github.com/mljs/regression-exponential/compare/v2.1.2...v2.1.3) (2024-05-12)
 
 
