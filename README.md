@@ -15,7 +15,7 @@ Exponential Regression.
 This calculates parameters A and B for the equation `y = A * e^(B * x)`.
 
 ```js
-import ExponentialRegression from 'ml-regression-exponential';
+import { ExponentialRegression } from 'ml-regression-exponential';
 
 const x = [0, 1, 2, 3, 4];
 const y = [1.5, 2.5, 3.5, 5.0, 7.5];
