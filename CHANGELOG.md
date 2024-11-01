@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/mljs/regression-exponential/compare/v3.0.1...v3.0.2) (2024-11-01)
+
+
+### Bug Fixes
+
+* add missing A and B in class type ([#24](https://github.com/mljs/regression-exponential/issues/24)) ([1daf65e](https://github.com/mljs/regression-exponential/commit/1daf65e0da93331c8da1ae40f6c1ecea25e5d69d))
+
 ## [3.0.1](https://github.com/mljs/regression-exponential/compare/v3.0.0...v3.0.1) (2024-05-16)
 
 
