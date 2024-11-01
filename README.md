@@ -12,7 +12,7 @@ Exponential Regression.
 
 ## Usage
 
-This calculates parameters A and B for the equation `y = A * e^(B * x)`.
+This calculates parameters A and B for the equation `y = B * e^(A * x)`.
 
 ```js
 import { ExponentialRegression } from 'ml-regression-exponential';
