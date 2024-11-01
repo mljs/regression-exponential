@@ -6,7 +6,14 @@ export interface ExponentialRegressionModel {
   B: number;
 }
 export declare class ExponentialRegression extends BaseRegression {
+  /**
+   * The coefficient `A` in the equation `y = A * e^(B * x)`.
+   */
   A: number;
+
+  /**
+   * The exponent coefficient `B` in the equation `y = A * e^(B * x)`.
+   */
   B: number;
 
   constructor(x: number[], y: number[]);
