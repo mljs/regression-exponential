@@ -6,6 +6,9 @@ export interface ExponentialRegressionModel {
   B: number;
 }
 export declare class ExponentialRegression extends BaseRegression {
+  A: number;
+  B: number;
+
   constructor(x: number[], y: number[]);
 
   static load(model: ExponentialRegressionModel): ExponentialRegression;
